@@ -1,0 +1,4 @@
+$ nest g mo api
+$ nest g mo api/user && nest g co api/user --no-spec && nest g s api/user --no-spec
+$ touch src/api/user/user.entity.ts
+$ touch src/api/user/user.dto.ts
